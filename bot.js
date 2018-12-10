@@ -3,10 +3,7 @@ console.log("Loading bot...");
 // Load required modules
 const SteamUser = require("steam-user");
 const SteamTotp = require("steam-totp");
-const Gamedig = require('gamedig');
 const cfg = require("./cfg.json");
-const fs = require('fs');
-var util = require('util');
 
 const client = new SteamUser();
 
