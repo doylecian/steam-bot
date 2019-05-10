@@ -108,7 +108,7 @@ client.on("friendMessage", function(steamID, message) {
             client.chatMessage(steamID, "Hello");
             break;  
 
-        case "helpppppppppppp":
+        case "help":
             for (var i = 0; i < commands.length; i++) {
                 client.chatMessage(steamID, "'" + commands[i] + "',\n");
             }  
